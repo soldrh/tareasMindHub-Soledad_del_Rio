@@ -1,0 +1,60 @@
+.titulo{
+    color: black;
+    position: absolute;
+    top: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 4em;
+}
+.portada{
+    width: 100%;
+    margin-top: 0;
+    height: 500px;
+}
+.barra{
+    background-color: black;
+    width: 100%;
+    margin-left: 0;
+    color: white;
+    text-align: center;
+    height: 2em;
+    position: absolute;
+    top: 450px;
+}
+.logo{
+    width: 10%;
+    position: absolute;
+    top: 400px;
+    margin-left: 1050px;
+}
+.navegador{
+    display: inline-block;
+    width: 200px;
+    top: 300px;
+    margin-left: 10px;
+    text-align: 5px;
+    vertical-align: top;
+}
+h4{
+    display: inline-block;
+    width: 600px;
+    top: 200px;
+    margin-left: 450px;
+    text-align: justify;
+}
+.otraImg{
+    width: 25%;
+    position: absolute;
+    top: 650px;   
+    margin-left: 20px;
+}
+.sol{
+    background-color: darkviolet;
+}
+.sol2{
+    color: white;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    box-shadow: 2px -2px 5px red;
+}
