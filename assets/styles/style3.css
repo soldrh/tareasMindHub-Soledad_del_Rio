@@ -42,7 +42,6 @@ ul, li, a{
     margin-left: 0;
     text-align: center;
     height: 2em;
-    top: 650px;
 }
 a:hover{
 color: aquamarine;
@@ -61,8 +60,11 @@ h4{
     margin-left: 160px;
 }
 .iUno:hover, .iDos:hover, .iTres:hover{
-    opacity: 40%;
-    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: solid;
 }
 .sol2{
     background-color: darkviolet;
