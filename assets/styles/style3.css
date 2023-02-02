@@ -46,7 +46,7 @@ ul, li, a{
 a:hover{
 color: aquamarine;
 }
-h4{
+h4, p{
     display: inline-block;
     width: 600px;
     top: 200px;
