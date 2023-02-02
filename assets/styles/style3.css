@@ -6,9 +6,12 @@
     text-align:center;
     font-size: 4em;
 }
-.portada{
+.portada, .portada2{
     width: 100%;
-    }
+}
+.portada:hover{
+    opacity: 50%;    
+}
 .barra{
     background-color: black;
     width: 100%;
@@ -51,11 +54,15 @@ h4{
     margin-left: 450px;
     text-align: justify;
 }
-.otraImg{
-    width: 50%;
-    height: 50%;
-    display: flexbox;
-    align-content: flex-end;
+.iUno, .iDos, .iTres {
+    width: 200px;
+    height: 150px;
+    display: inline;
+    margin-left: 160px;
+}
+.iUno:hover, .iDos:hover, .iTres:hover{
+    opacity: 40%;
+    background-color: blueviolet;
 }
 .sol2{
     background-color: darkviolet;
