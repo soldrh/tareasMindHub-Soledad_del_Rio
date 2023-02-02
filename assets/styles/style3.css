@@ -1,0 +1,67 @@
+*{
+    background-color: aquamarine;
+}
+.titulo{
+    color:black;
+    text-align:center;
+    font-size: 4em;
+}
+.portada{
+    width: 100%;
+    }
+.barra{
+    background-color: black;
+    width: 100%;
+    margin-left: 0;
+    color: white;
+    text-align: center;
+    height: 2em;
+    position: absolute;
+    top: 110px;
+}
+.logo{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+ul, li, a{
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    margin-left: 0;
+    text-align: center;
+    height: 2em;
+    top: 650px;
+}
+a:hover{
+color: aquamarine;
+}
+h4{
+    display: inline-block;
+    width: 600px;
+    top: 200px;
+    margin-left: 450px;
+    text-align: justify;
+}
+.otraImg{
+    width: 50%;
+    height: 50%;
+    display: flexbox;
+    align-content: flex-end;
+}
+.sol2{
+    background-color: darkviolet;
+    color: white;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    box-shadow: 2px -2px 5px red;
+}
