@@ -15,12 +15,18 @@
 .barra{
     background-color: black;
     width: 100%;
-    margin-left: 0;
     color: white;
     text-align: center;
-    height: 2em;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     position: absolute;
-    top: 110px;
+    top: 930px;
+    align-items: center;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
 }
 .logo{
     width: 15%;
@@ -28,20 +34,21 @@
     position: absolute;
     top: 8px;
     left: 10px;
+    border-radius: 200px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
 }
 ul, li, a{
     width: 100%;
     align-items: center;
     background-color: black;
     color: white;
-    display: inline;
-    padding: 15px;
-    align-items: center;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-decoration: none;
-    margin-left: 0;
-    text-align: center;
-    height: 2em;
+    height: 3em;
 }
 a:hover{
 color: aquamarine;
