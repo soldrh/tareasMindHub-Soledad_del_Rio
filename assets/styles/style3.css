@@ -1,82 +1,35 @@
-*{
-    background-color: aquamarine;
-}
-.titulo{
-    color:black;
-    text-align:center;
-    font-size: 4em;
-}
-.portada, .portada2{
-    width: 100%;
-}
-.portada:hover{
-    opacity: 50%;    
-}
-.barra{
-    background-color: black;
-    width: 100%;
-    color: white;
-    text-align: center;
-    height: 3em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: absolute;
-    top: 930px;
-    align-items: center;
-    border-color: red;
-    border-width: 2px;
-    border-style: solid;
-}
-.logo{
-    width: 15%;
-    height: 15%;
-    position: absolute;
-    top: 8px;
-    left: 10px;
-    border-radius: 200px;
-    border-color: red;
-    border-width: 2px;
-    border-style: solid;
-}
-ul, li, a{
-    width: 100%;
-    align-items: center;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-decoration: none;
-    height: 3em;
-}
-a:hover{
-color: aquamarine;
-}
-h4, p{
-    display: inline-block;
-    width: 600px;
-    margin-left: 450px;
-    text-align: justify;
-}
-.iUno, .iDos, .iTres {
-    width: 200px;
-    height: 150px;
-    display: inline;
-    margin-left: 160px;
-}
-.iUno:hover, .iDos:hover, .iTres:hover{
-    width: 300px;
-    height: 200px;
-    border-color: blueviolet;
-    border-width: 5px;
-    border-style: solid;
-}
-.sol2{
-    background-color: darkviolet;
-    color: white;
-    font-size: 14px;
-    display: block;
-    text-align: center;
-    box-shadow: 2px -2px 5px red;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" type="text/css" href="assets/styles/style1.css"> -->
+    <!--<link rel="stylesheet" type="text/css" href="assets/styles/style2.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/style3.css"> 
+    <title>Contact</title>
+</head>
+    <header>
+        <h1 class="titulo">Mighty Ducks Hockey League</h1>
+        <img class="portada" src="./assets/img/design1_image1.jpg" alt="fotoPortada">
+        <img class="logo" src="./assets/img/LogoMightyducks-01.png" alt="Logo">
+        <nav class="navegation">
+            <ul class="lista">
+                <li class="it"><a href="index.html">Home</a></li>
+                <li class="it"><a href="about.html">About MDHL</a></li>
+                <li class="it">Contact</li>
+                <li class="it"><a href="rules.html">Rules</a></li>
+                <li class="it"><a href="gameInformation.html">Game Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h3 class="barra">Contact</h3>
+    <h4>Please email us at  <a class="email" href=mailto:MAIL>mdhl@chihockey.org</a></h4>  
+    <h4>We reply to your email as soon as we can.</h4>
+    <img class="iUno" src="./assets/img/hockey1.jpg" alt="jugadorHockey1">
+    <img class="iDos" src="./assets/img/hockey2.jpg" alt="jugadorHockey2">
+    <img class="iTres" src="./assets/img/hockey3.jpg" alt="jugadorHockey3">
+<footer>
+    <h2 class="sol2">Soldrh  © 2023</h2>
+</footer>
+</html>
