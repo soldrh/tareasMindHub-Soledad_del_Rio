@@ -1,12 +1,13 @@
 *{
     background-color: aquamarine;
+    text-align: center;
 }
 .titulo{
     color:black;
     text-align:center;
     font-size: 4em;
 }
-.portada, .portada2{
+.portada {
     width: 100%;
 }
 .portada:hover{
@@ -79,4 +80,17 @@ h4, p{
     display: block;
     text-align: center;
     box-shadow: 2px -2px 5px red;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+    gap: 10px;
 }
